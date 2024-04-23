@@ -1,0 +1,90 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+html{
+    height: 100%; 
+}
+
+body{
+    height: 100%;
+    display: flex;
+    background-color: #f7b7b8;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.presentation-card{
+    height: 470px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 50%;
+    display: flex;
+    justify-content: top;
+    flex-direction: column;
+}
+
+.logo-container{
+    overflow: hidden;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    align-self: center;
+}
+
+.logo-container img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.title, .sub-title{
+    height: 28%;
+}
+
+.title{
+    font-size: 1.5em;
+    font-weight: 600;
+    align-self: center;
+}
+
+.links-container{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.links-container a{
+    width: 80%;
+}
+
+.btn{
+    width: 100%;
+    margin: 5px;
+    padding: 7px;
+    border-radius: 8px;
+    background-color: #ccc;
+    border: none;
+    font-size: 1em;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+    color: #000;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px 0 #aaa;
+}
